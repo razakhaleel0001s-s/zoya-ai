@@ -1,0 +1,23 @@
+appId: com.zoya.aivoiceassistant
+productName: Zoya AI Voice Assistant
+asar: true
+files:
+  - dist/**/*
+  - main.cjs
+  - package.json
+directories:
+  output: release
+extraMetadata:
+  main: main.cjs
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+  artifactName: Zoya-AI-Voice-Assistant-Setup-${version}.${ext}
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: Zoya AI Voice Assistant

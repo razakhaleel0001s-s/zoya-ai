@@ -1,0 +1,7 @@
+{
+  "name": "Muskan AI - Voice Assistant",
+  "description": "A respectable and intelligent Islamic female AI voice assistant.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
